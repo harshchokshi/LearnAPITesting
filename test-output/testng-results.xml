@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-14T21:29:32 IST" name="Default suite" finished-at="2023-01-14T21:29:37 IST" duration-ms="5016">
+    <groups>
+    </groups>
+    <test started-at="2023-01-14T21:29:32 IST" name="Default test" finished-at="2023-01-14T21:29:37 IST" duration-ms="5016">
+      <class name="jiraapi.JiraApiSessionFilter">
+        <test-method signature="authentication()[pri:1, instance:jiraapi.JiraApiSessionFilter@708f5957]" started-at="2023-01-14T21:29:32 IST" name="authentication" finished-at="2023-01-14T21:29:34 IST" duration-ms="2262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authentication -->
+        <test-method signature="createIssue()[pri:2, instance:jiraapi.JiraApiSessionFilter@708f5957]" started-at="2023-01-14T21:29:34 IST" name="createIssue" finished-at="2023-01-14T21:29:34 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIssue -->
+        <test-method signature="addComment()[pri:3, instance:jiraapi.JiraApiSessionFilter@708f5957]" started-at="2023-01-14T21:29:34 IST" name="addComment" finished-at="2023-01-14T21:29:35 IST" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComment -->
+        <test-method signature="addAttachment()[pri:4, instance:jiraapi.JiraApiSessionFilter@708f5957]" started-at="2023-01-14T21:29:35 IST" name="addAttachment" finished-at="2023-01-14T21:29:36 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAttachment -->
+        <test-method signature="addMultipleComment(java.lang.String)[pri:4, instance:jiraapi.JiraApiSessionFilter@708f5957]" started-at="2023-01-14T21:29:36 IST" name="addMultipleComment" data-provider="addComments" finished-at="2023-01-14T21:29:36 IST" duration-ms="96" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is second comment.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleComment -->
+        <test-method signature="addMultipleComment(java.lang.String)[pri:4, instance:jiraapi.JiraApiSessionFilter@708f5957]" started-at="2023-01-14T21:29:36 IST" name="addMultipleComment" data-provider="addComments" finished-at="2023-01-14T21:29:36 IST" duration-ms="124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is third comment.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleComment -->
+        <test-method signature="getIssueDetail()[pri:5, instance:jiraapi.JiraApiSessionFilter@708f5957]" started-at="2023-01-14T21:29:36 IST" name="getIssueDetail" finished-at="2023-01-14T21:29:36 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIssueDetail -->
+        <test-method signature="filterIssuebyAttachment()[pri:6, instance:jiraapi.JiraApiSessionFilter@708f5957]" started-at="2023-01-14T21:29:36 IST" name="filterIssuebyAttachment" finished-at="2023-01-14T21:29:36 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterIssuebyAttachment -->
+        <test-method signature="verifyCommentSuccessfulladded()[pri:7, instance:jiraapi.JiraApiSessionFilter@708f5957]" started-at="2023-01-14T21:29:36 IST" name="verifyCommentSuccessfulladded" finished-at="2023-01-14T21:29:37 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCommentSuccessfulladded -->
+      </class> <!-- jiraapi.JiraApiSessionFilter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
